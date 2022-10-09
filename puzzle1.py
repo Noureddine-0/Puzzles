@@ -22,7 +22,7 @@ def gcdExtended(a, b):
 
 
 for file in L :
-	if os.path.isfile(file) and file != "test.py" and file.split(".")[-1] =="pem" :
+	if os.path.isfile(file) and file != "puzzle1.py" and file.split(".")[-1] =="pem" :
 		list_file.append(file)
 def get_d(phi,e):
     number=gcdExtended(phi,e)[2]
